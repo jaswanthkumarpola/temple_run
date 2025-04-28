@@ -33,9 +33,13 @@ pip install opencv-python mediapipe pyautogui
 
 --
    Gesture            | Fingers State     | Action    | Key Pressed
+   
 ✋ All fingers up    | [1,1,1,1,1]       | Slide Down | S
+
 ☝️ Only index finger up | [0,1,0,0,0]    | Jump       | W
+
 👉 Thumb and pinky up | [1,0,0,0,1]      | Turn Right | D
+
 ✌️ Index and middle up | [0,1,1,0,0]     | Turn Left  | A
 
 --
